@@ -1,3 +1,7 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+button[disabled] {
+  color: rgb(230, 173, 230);
+}
